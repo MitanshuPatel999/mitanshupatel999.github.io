@@ -1,0 +1,18 @@
+<div class="card shadow text-center"
+ style="max-width: 360px; min-width: 360px; max-height: 240px; min-height: 240px;">
+    <div class="card-body">
+        <h5 class="card-title">{{project.name}}</h5>
+        <p class="card-text" style="max-height: 48px;min-height: 48px;">{{project.summary}}</p>
+        
+    </div>
+    <div class="text-center mb-2">
+    <button class="btn btn-primary" style="width: 50%;" (click)="OpenProjectModal()">View More</button>
+    </div>
+    <div class="card-footer">
+        <div class="d-flex flex-wrap justify-content-center">
+            <div *ngFor="let tag of project.tags">
+                <div class="tag me-2 mb-2" [style.background-color]="tag.color">{{tag}}</div>
+            </div>
+        </div>
+    </div>
+</div>
