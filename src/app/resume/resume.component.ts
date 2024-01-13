@@ -17,7 +17,7 @@ export class ResumeComponent {
     const link = this.renderer.createElement('a');
     link.setAttribute('target','_blank');
     link.setAttribute('href','../../assets/MyResume.pdf');
-    link.setAttribute('download','MyResume.pdf');
+    link.setAttribute('download','Mitanshu_Patel-Resume.pdf');
     link.click();
     link.remove();
   }
