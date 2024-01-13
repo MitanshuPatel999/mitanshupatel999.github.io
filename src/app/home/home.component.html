@@ -3,11 +3,11 @@
         <!-- About Me -->
         <div class="col-lg shadow border m1">
             <div class="text-center">
-                <h2>About Me</h2>
-                <img src="../../assets/myimage_bgw.jpg" alt="profile picture"
+                <h2 class="moving-gradient">About Me</h2>
+                <img class="profilepic" src="../../assets/myimage_nbg.jpg" alt="profile picture"
                 width="256" height="256"
-                class="rounded img-thumbnail">
-                <p>A passionate learner with brilliant problem-solving skills who loves to face challenges. Believes in conceptual and
+                >
+                <p class="moving-gradient">A passionate learner with brilliant problem-solving skills who loves to face challenges. Believes in conceptual and
                     practical perspective. Seeking to utilize broad educational background with excellent analytical, technical and
                     programming skills to thrive as a software engineer.</p>
             </div>
@@ -15,8 +15,8 @@
         <!-- Featured Project -->
         <div class="col-lg shadow border m1">
             <div class="text-center">
-                <h2>Featured Project</h2>
-                <h4>{{featuredProject.name}}</h4>
+                <h2 class="moving-gradient">Featured Project</h2>
+                <h4 class="moving-gradient">{{featuredProject.name}}</h4>
             </div>
 
             <ngb-carousel>
@@ -25,8 +25,7 @@
                      style="display:block; width: 100%;">
                 </ng-template>
             </ngb-carousel>
-            <p class="mt-2">{{featuredProject.summary}}</p>
-            <p>Visit the <a class="btn btn-outline-info" routerLink="/portfolio" >Portfolio</a> section for more!</p>
+            <p class="mt-2 moving-gradient text-center">{{featuredProject.summary}}</p>
         </div>
     </div>
 </div>

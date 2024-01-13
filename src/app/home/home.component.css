@@ -1,0 +1,10 @@
+
+.profilepic {
+    border-image: linear-gradient(45deg, #ff8a00, #e52e71, #1a1aff);
+    position: relative;
+    width: 300px;
+    border-radius: 10%;
+    padding: 10px;
+}
+  
+  
