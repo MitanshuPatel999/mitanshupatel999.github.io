@@ -1,0 +1,23 @@
+         
+@media (min-width: 768px) {.footer {
+    
+    font-size: 16px;
+    -webkit-letter-spacing: .1em;
+    -moz-letter-spacing: .1em;
+    -ms-letter-spacing: .1em;
+    letter-spacing: .1em;
+    writing-mode: vertical-rl;
+    margin: 10px auto;
+    padding: 5px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 36px;
+  }
+  
+  
+  
+  /* Style for the email link */
+  .footer a {
+  text-decoration: none;
+  }}

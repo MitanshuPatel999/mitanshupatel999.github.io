@@ -1,0 +1,12 @@
+.btm {
+    animation: shadowAnimation1 5s infinite;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 10px auto;
+}
+    
+

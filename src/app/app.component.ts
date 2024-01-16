@@ -14,4 +14,5 @@ import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class AppComponent {
   title = 'portfolio';
+  email: string = "mitanshu.999patel@gmail.com";
 }

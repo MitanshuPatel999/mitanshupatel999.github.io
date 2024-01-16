@@ -1,6 +1,6 @@
 <div class="modal-header">
     <h2 class="moving-gradient">{{project.name}}</h2>
-    <button class="btn-close" (click)="modal.close()"></button>
+    <button class="btn-close btn-outline-danger" (click)="modal.close()"></button>
 </div>
 <div class="modal-body">
     <ngb-carousel>
@@ -14,7 +14,7 @@
     <p class="moving-gradient">{{project.description}}</p>
     <p *ngIf="project.projectLink !== null && project.projectLink !== ''" class="moving-gradient">
         You can find this project on Github 
-        <a href={{project.projectLink}} target="_blank">here</a>.
+        <a class="text-info" href={{project.projectLink}} target="_blank">here</a>.
     </p>
     <hr>
     <div class="d-flex flex-wrap">

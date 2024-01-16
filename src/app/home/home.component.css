@@ -1,10 +1,34 @@
-
 .profilepic {
-    border-image: linear-gradient(45deg, #ff8a00, #e52e71, #1a1aff);
     position: relative;
-    width: 300px;
     border-radius: 10%;
-    padding: 10px;
+    margin: 0px;
+    animation: shadowAnimation2 5s infinite linear;
 }
-  
-  
+
+
+@keyframes shadowAnimation2 {
+    0% {
+        box-shadow: 0 0px 8px rgba(255, 138, 0, 0.5);
+        /* Initial box shadow */
+    }
+
+    25% {
+        box-shadow: 0 0px 8px rgba(229, 46, 113, 0.5);
+        /* Moving box shadow - 25% of animation duration */
+    }
+
+    50% {
+        box-shadow: 0 0px 8px rgba(26, 26, 255, 0.5);
+        /* Moving box shadow - 50% of animation duration */
+    }
+
+    75% {
+        box-shadow: 0 0px 8px rgba(255, 138, 0, 0.5);
+        /* Moving box shadow - 75% of animation duration */
+    }
+
+    100% {
+        box-shadow: 0 0px 8px rgba(255, 138, 0, 0.5);
+        /* Final box shadow */
+    }
+}
