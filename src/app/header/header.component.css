@@ -1,4 +1,12 @@
 .jumbotron {
     padding: 2rem 1rem;
     background-color: black;
+    min-width: 300px ;
+}
+
+.M{
+    Width:64px;
+    Height:64px;
+    margin-right: -2px;
+    margin-bottom: 18px;
 }
